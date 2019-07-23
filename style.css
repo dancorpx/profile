@@ -22,7 +22,7 @@ body {
     0% { opacity: 0; }
     100% { opacity: 1; } }
     .fade-in {
-        animation: fadeIn 1.5s forwards; 
+        animation: fadeIn 1.5s forwards;
     }
 
 .heading {
@@ -40,7 +40,7 @@ body {
 }
 
 .heading-stroke {
-    position: absolute;  
+    position: absolute;
     display: flex;
     color: black;
     -webkit-text-fill-color: white;
@@ -89,7 +89,7 @@ h1 {
 }
 .project-card {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     border: none;
     width: 80vw;
     height: 40vh;
@@ -104,11 +104,12 @@ h1 {
     flex-direction: column;
 }
 .project-content {
-    display: flex;  
+    margin-top: 2rem;
+    display: flex;
     height: 3rem;
     width: 99%;
     justify-content: center;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 .card-logo {
     width: 3rem;
@@ -138,25 +139,30 @@ h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-/* .overlay {
-    position: absolute;
-    margin-top: 10vh;
+ .overlay {
+    position: relative;
     height: 20vh;
     width: auto;
     opacity: 0;
     transition: 1s ease;
-} */
-/* .project-card:hover .overlay {
+}
+ .project-card:hover .overlay {
     opacity: 1;
-} */
+}
 
 .QRcode {
     height: 25vh;
     width: auto;
+    margin-right: .5rem;
+}
+.screenshot {
+    height: 25vh;
+    width: auto;
+    margin-left: .5rem;
 }
 footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 10vh;
     /* text-align: center; */
     font-size: 30px;
@@ -164,7 +170,8 @@ footer {
     /* margin: 0 auto; */
 }
 i {
-    padding: 5px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 .btn {
     color: black;
@@ -184,6 +191,6 @@ a {
         /* flex-direction: row; */
     }
     .projects {
-        flex-direction: row;       
+        flex-direction: row;
     }
 }
