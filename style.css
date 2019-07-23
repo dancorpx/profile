@@ -37,6 +37,7 @@ body {
     background: linear-gradient(to bottom, rgba(124, 198, 254, 0) 85%, rgba(222, 49, 49, 0.8) 70%);
     border-radius: 3px;
     text-align: center;
+    width: 26rem;
 }
 
 .heading-stroke {
@@ -179,8 +180,8 @@ i {
 a {
     color: black;
 }
-/* 
-.red-border {
+
+/* .red-border {
     border: solid red;
 } */
 
