@@ -152,7 +152,7 @@ h3 {
 }
 
 .QRcode {
-    height: 15vh;
+    height: 90%;
     width: auto;
     margin-right: .5rem;
 }
@@ -189,12 +189,35 @@ a {
 @media screen and (min-width: 600px) {
     .project-card {
         width: 60vw;
-        /* flex-direction: row; */
     }
     .projects {
         flex-direction: row;
     }
     .QRcode {
+        height: 90%;
+        margin-right: .05em;
+    }
+    .screenshot {
+        height: 90%;
+        margin-left: .05em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .QRcode {
+        height: 100%;
+        margin-right: .3em;
+    }
+    .screenshot {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .QRcode {
+        height: 25vh;
+    }
+    .screenshot {
         height: 25vh;
     }
 }
