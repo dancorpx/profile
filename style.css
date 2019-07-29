@@ -152,7 +152,7 @@ h3 {
 }
 
 .QRcode {
-    height: 25vh;
+    height: 15vh;
     width: auto;
     margin-right: .5rem;
 }
@@ -193,5 +193,8 @@ a {
     }
     .projects {
         flex-direction: row;
+    }
+    .QRcode {
+        height: 25vh;
     }
 }
