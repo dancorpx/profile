@@ -134,14 +134,16 @@ h2 {
 }
 
 h3 {
-    font-size: 200%;
+    font-size: 2.5em;
     margin-block-start: 0em;
     margin-block-end: 0em;
     font-family: 'Raleway', sans-serif;
 }
 
  .overlay {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-evenly;
     height: 20vh;
     width: auto;
     opacity: 0;
