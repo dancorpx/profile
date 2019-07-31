@@ -96,7 +96,7 @@ h1 {
     width: 80vw;
     height: 40vh;
     margin: 0 auto;
-    margin-right: 1vw;
+    margin: 1vw 1vw;
     margin-bottom: 0vh;
     border-radius: 4px;
     background-size: cover !important;
