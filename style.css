@@ -90,7 +90,9 @@ h1 {
     /* height: 7vh; */
 }
 .project-card {
-    margin-top: 1em; 
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em; 
 }
 .card-background {
     display: flex;
@@ -111,6 +113,7 @@ h1 {
 
 #rorCard-background {
     height: 20vh;
+    background-position: center;
 }
 
 .project-content {
@@ -138,7 +141,7 @@ h1 {
 }
 
 .card-text {
-    background-color: rgba(255,255,255, 0.2);
+    background-color: rgba(255,255,255, 0.3);
     padding-top: 5px;
     margin-bottom: 1em;
     font-family: 'Raleway', sans-serif;
@@ -233,11 +236,11 @@ a {
         width: 26em;
     }
     .card-background {
-        width: 60vw;
+        width: 40vw;
     }
     .projects {
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         flex-direction: row;
         width: auto;
     }
@@ -248,6 +251,12 @@ a {
     .screenshot {
         height: 100%;
         margin-left: .05em;
+    }
+    .MPsection {
+        height: 60vh;
+    }
+    .RoRsection {
+        height: 50vh;
     }
 }
 
