@@ -78,7 +78,7 @@ h1 {
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    /* width: 80vw; */
     margin: 0 auto;
 }
 .title {
@@ -145,6 +145,8 @@ h1 {
     padding-top: 5px;
     margin-bottom: 1em;
     font-family: 'Raleway', sans-serif;
+    width: 80vw;
+    margin: 0 auto;
 }
 .card-text p {
     margin: 0;
@@ -176,11 +178,13 @@ h4 {
     background-color: rgba(222, 49, 49, 0.3);
     height: auto;
     margin-top: 1vh;
+    padding-bottom: 2vh;
 }
 .RoRsection {
     background-color: rgba(0, 255, 161, 0.3);
     height: auto;
     margin-top: 1vh;
+    padding-bottom: 2vh;
 }
 
  .overlay {
@@ -237,12 +241,18 @@ a {
     }
     .card-background {
         width: 40vw;
+        min-height: 40vh;
+    }
+
+    .card-text {
+        width: 40vw;
     }
     .projects {
         display: flex;
         /* align-items: center; */
         flex-direction: row;
         width: auto;
+        justify-content: center;
     }
     .QRcode {
         height: 70%;
@@ -253,27 +263,36 @@ a {
         margin-left: .05em;
     }
     .MPsection {
-        height: 60vh;
+        min-height: 75vh;
     }
     .RoRsection {
-        height: 50vh;
+        height: 75vh;
+        
     }
 }
 
 @media screen and (min-width: 800px) {
+    .card-background {
+        min-height: 20vh;
+    }
     .projects {
         width: 80vw;
     }
+    #rorCard-background {
+        height: 40vh;
+    }
+    
     .QRcode {
-        height: 100%;
+        height: 80%;
         margin-right: .3em;
     }
     .screenshot {
-        height: 100%;
+        height: 80%;
     }
 }
 
 @media screen and (min-width: 1200px) {
+    
     .QRcode {
         height: 25vh;
     }
