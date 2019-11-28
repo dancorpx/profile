@@ -263,10 +263,10 @@ a {
         margin-left: .05em;
     }
     .MPsection {
-        min-height: 75vh;
+        /* min-height: 75vh; */
     }
     .RoRsection {
-        height: 75vh;
+        /* height: 75vh; */
         
     }
 }
