@@ -138,6 +138,7 @@ h1 {
     -webkit-text-stroke-color: black;
     height: 3rem;
     justify-content: baseline;
+    font-family: sans-serif;
 }
 
 .card-text {
